@@ -1,0 +1,20 @@
+.header {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    background-color: #F5C518;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 3vw;
+    box-shadow: 0px 1px 5px black;
+    color: #121212;
+    z-index: 100;
+}
+
+@media (max-width: 1028px) {
+    .header {
+        width: 100%;
+        justify-content: center;
+        font-size: 6.4vw;
+    }
+}
